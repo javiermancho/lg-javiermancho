@@ -13,10 +13,6 @@ This app sends location data and KML files to a Liquid Galaxy instance via API r
 - Reload the Liquid Galaxy instance.
 - Toggle logo display in Liquid Galaxy.
 
-## **Demo**
-![Screenshot_1741630369](https://github.com/user-attachments/assets/e3d8a9cc-139c-4fd4-8193-d686a3ac1656)
-
-
 ## **Setup and Installation**
 
 ### **Prerequisites**
