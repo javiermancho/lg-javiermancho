@@ -1,16 +1,54 @@
-# lg_app_t2
+# **LiquidGalaxy Stadium Controller**
+Flutter application that allows users to navigate to different football stadiums using Liquid Galaxy. 
+This app sends location data and KML files to a Liquid Galaxy instance via API requests.
 
-A new Flutter project.
+## **Features**
+- Select from four football stadiums:
+    - Metropolitano
+    - Camp Nou
+    - Santiago Bernabéu
+    - San Mamés
+- Display team logos.
+- Clean Liquid Galaxy visualization.
+- Reload the Liquid Galaxy instance.
+- Toggle logo display in Liquid Galaxy.
 
-## Getting Started
+## **Setup and Installation**
 
-This project is a starting point for a Flutter application.
+### **Prerequisites**
+- Flutter installed ([Installation Guide](https://docs.flutter.dev/get-started/install)).
+- Liquid Galaxy set up and running.
+- Liquid Galaxy Server ([Lg-server](https://github.com/LiquidGalaxyLAB/lg-server?tab=readme-ov-file#endpoints))
+- API endpoint for Liquid Galaxy communication.
 
-A few resources to get you started if this is your first Flutter project:
+### **Clone the repository**
+```bash
+git clone https://github.com/your-username/liquidgalaxy-stadium-controller.git
+cd liquidgalaxy-stadium-controller
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Install dependencies**
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Run the application**
+```bash
+flutter run
+```
+
+## **Usage**
+1. Open the application.
+2. Select a stadium by clicking its team logo.
+3. The app will send the necessary API requests to Liquid Galaxy.
+4. Use the **Clean** button to clear the view.
+5. Use the **Reload** button to restart Liquid Galaxy.
+6. Access settings to toggle team logos on Liquid Galaxy.
+
+### **Available API requests**
+- **FlyTo a stadium**: `POST /lg-connection/flyto`
+- **Send KML file**: `POST /lg-connection/stadium`
+- **Clean visualization**: `POST /lg-connection/clean-visualization`
+- **Clean logos**: `POST /lg-connection/clean-logos`
+- **Show logo**: `POST /lg-connection/show-logo`
+- **Reload Liquid Galaxy**: `POST /lg-connection/relaunch-lg`
