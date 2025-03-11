@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Metropolitano Stadium</name>
+    <Placemark>
+      <name>Metropolitano Stadium</name>
+      <description><![CDATA[
+        <h2>Metropolitano Stadium</h2>
+        <p><b>Description:</b> 70,460 Spectators</p>
+      ]]></description>
+      <Point>
+        <coordinates>-3.599119474966377,40.43626312220715,50</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

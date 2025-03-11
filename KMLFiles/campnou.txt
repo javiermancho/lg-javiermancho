@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Camp Nou Stadium</name>
+    <Placemark>
+      <name>Camp Nou Stadium</name>
+      <description><![CDATA[
+        <h2>Camp Nou Stadium</h2>
+        <p><b>Description:</b> Under Construction</p>
+      ]]></description>
+      <Point>
+        <coordinates>2.1228412550284945,41.38102477411826,50</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

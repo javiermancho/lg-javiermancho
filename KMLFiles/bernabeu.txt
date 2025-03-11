@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bernabeu Stadium</name>
+    <Placemark>
+      <name>Bernabeu Stadium</name>
+      <description><![CDATA[
+        <h2>Bernabeu Stadium</h2>
+        <p><b>Description:</b> 81,000 Spectators</p>
+      ]]></description>
+      <Point>
+        <coordinates>-3.688330740850828,40.45337096161276,70</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

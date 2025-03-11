@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Mames Stadium</name>
+    <Placemark>
+      <name>San Mames Stadium</name>
+      <description><![CDATA[
+        <h2>San Mames Stadium</h2>
+        <p><b>Description:</b> 53,289 Spectators</p>
+      ]]></description>
+      <Point>
+        <coordinates>-2.949369,43.264205,50</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
