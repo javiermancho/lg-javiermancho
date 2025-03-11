@@ -37,13 +37,20 @@ flutter pub get
 flutter run
 ```
 
+## **Optional: Install the Released App**
+If you prefer to install the pre-built version instead of running the project from source, follow these steps:
+1. Download the latest APK release (apk-release.apk).
+2. Transfer the APK file to your Android device.
+3. Open the file and follow the installation prompts.
+4. Launch the app and start navigating through stadiums!
+
 ## **Usage**
 1. Open the application.
 2. Select a stadium by clicking its team logo.
 3. The app will send the necessary API requests to Liquid Galaxy.
 4. Use the **Clean** button to clear the view.
 5. Use the **Reload** button to restart Liquid Galaxy.
-6. Access settings to toggle team logos on Liquid Galaxy.
+6. Access settings to toggle logo on Liquid Galaxy.
 
 ### **Available API requests**
 - **FlyTo a stadium**: `POST /lg-connection/flyto`
